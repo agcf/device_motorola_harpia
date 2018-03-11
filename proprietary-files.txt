@@ -23,6 +23,7 @@ lib/libmmjpeg_interface.so
 lib/libmot-qc-fd-offline.so
 lib/libmotimager_utils.so
 lib/libmpbase.so
+lib/libmotocalibration.so
 lib/libqomx_core.so
 lib/hw/camera.msm8916.so:lib/hw/camera.vendor.msm8916.so
 vendor/lib/libactuator_f8v03t_dw9718s.so
@@ -102,10 +103,6 @@ vendor/lib/libchromatix_ov8865_l8865aa0_preview.so
 vendor/lib/libchromatix_ov8865_l8865aa0_snapshot.so
 vendor/lib/libchromatix_ov8865_l8865aa0_video_hd.so
 vendor/lib/libchromatix_ov8865_l8865aa0_zsl.so
-
-# Sensors
-lib/libmotocalibration.so
-lib/hw/sensors.msm8916.so
 
 # WCNSS
 etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
