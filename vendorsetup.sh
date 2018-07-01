@@ -1,0 +1,3 @@
+add_lunch_combo bootleg_harpia-userdebug
+add_lunch_combobootleg_harpia-eng
+add_lunch_combo bootleg_harpia-user
