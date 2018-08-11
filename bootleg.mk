@@ -1,5 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
-#               2017 The LineageOS Project
+#               2017 The lineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,8 +15,10 @@
 
 $(call inherit-product, device/motorola/harpia/full_harpia.mk)
 
-# Inherit some common LOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common bootleg stuff.
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
+BOOTLEGGERS_BUILD_TYPE=Shishufied
+DEVICE_MAINTAINERS=Akianonymus
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 720
@@ -26,7 +28,7 @@ TARGET_BOOTANIMATION_HALF_RES := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := harpia
-PRODUCT_NAME := lineage_harpia
+PRODUCT_NAME := bootleg_harpia
 PRODUCT_MODEL := Moto G Play
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
