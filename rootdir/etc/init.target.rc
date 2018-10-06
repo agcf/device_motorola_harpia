@@ -77,11 +77,8 @@ on post-fs-data
     # Imager tuning data for camera subsystem
     mkdir /data/misc/imager 0770 camera camera
 
-# Start AKM executable
-service akmd09912 /system/vendor/bin/akmd09912
-    class main
-    user compass
-    group compass misc input
+#on property:ro.hw.ram=1GB
+#    setprop ro.config.low_ram true
 
 on property:sys.boot_completed=1
     setprop sys.io.scheduler bfq
