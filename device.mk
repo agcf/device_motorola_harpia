@@ -47,9 +47,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.lineage.build.vendor_security_patch=2018-06-01
 
-# Sensors
-PRODUCT_PACKAGES += \
-    akmd09912 \
-    stml0xx \
-    sensors.msm8916 \
-    sensorhub.msm8916
