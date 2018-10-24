@@ -16,7 +16,7 @@
 $(call inherit-product, device/motorola/harpia/full_harpia.mk)
 
 # Inherit some common LOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 
 # Boot animation
@@ -27,7 +27,7 @@ TARGET_BOOTANIMATION_HALF_RES := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := harpia
-PRODUCT_NAME := lineage_harpia
+PRODUCT_NAME := omni_harpia
 PRODUCT_MODEL := Moto G Play
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
@@ -37,6 +37,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="harpia-user 7.1.1 NPIS26.48-36-5 12 release-keys"
 
 BUILD_FINGERPRINT := motorola/harpia/harpia:7.1.1/NPIS26.48-36-5/12:user/release-keys
-
-# Use Jelly
-TARGET_USE_JELLY := true
