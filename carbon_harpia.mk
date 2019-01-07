@@ -44,4 +44,4 @@ TARGET_USE_JELLY := true
 
 # Maintainer string
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.carbon.maintainer="Razhor & facuarmo"
+    ro.carbon.maintainer="Razhor and facuarmo"
