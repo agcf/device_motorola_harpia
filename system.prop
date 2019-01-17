@@ -29,3 +29,4 @@ dhcp.wlan0.dns2=1.0.0.1
 
 # Radio
 persist.radio.aosp_usr_pref_sel=true
+ro.telephony.default_network=10
